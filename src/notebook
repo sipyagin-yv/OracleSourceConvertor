@@ -1,0 +1,31 @@
+// НЕИСПОЛЬЗУЕМЫЙ КОД
+
+//		String PAT_SKIPLINE = "(^$|<HTML>|</HTML>|<PRE>|</PRE>|<BODY.*>|</BODY>)";
+//		Pattern p = Pattern.compile(PAT_SKIPLINE);
+//		Matcher m = p.matcher(src);
+//		System.out.println(m.matches());
+		
+//		String src = "<FONT color=\"green\">006</FONT>    import java.util.List;<a name=\"line.6\"></a>";
+//		String HTML = HTMLTAG; //"(<FONT.*>.*</FONT>|<a.*></a>)";
+//		Pattern p = Pattern.compile(HTML);
+//		Matcher m = p.matcher(src);
+//		System.out.println("source line = " + src);
+//		System.out.println("pattern of tag = " + HTML);
+//		System.out.println("matches = " + m.matches());
+//		System.out.println("replace all = " + m.replaceAll(""));
+		
+
+		// Поиск файлов в директории по маске
+//		DirectoryStream<Path> ds = Files.newDirectoryStream(Paths.get("D:\\1\\applicationViewer\\"), "*.java");
+//		Iterator<Path> ip = ds.iterator();
+//		while(ip.hasNext()) {
+//			Path ph = ip.next();
+//			
+//			System.out.println(ph);
+//		}
+//		ds.close();
+
+		// Другой способ поиска по маске
+//		PathMatcher m = Paths.get("D:\\1\\applicationViewer\\").getFileSystem().getPathMatcher("glob:*.java");
+//		System.out.println( m.matches(Paths.get("a.java")) );
+		
